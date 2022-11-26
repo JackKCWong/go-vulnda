@@ -15,7 +15,7 @@ import (
 	"golang.org/x/vuln/osv"
 )
 
-const baseDir = "data"
+const baseDir = "govulnda"
 
 func main() {
 	err := os.MkdirAll(filepath.Join(baseDir, "ID"), 0750)
